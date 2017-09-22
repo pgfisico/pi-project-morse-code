@@ -4,7 +4,14 @@
 
 Create a new Python script named `morse_code.py`.
 
-At the top of the file, create a function named `output_morse_code` that requires a single argument named `message`. This function will take the message as an argument and output the message on the LED. It will not return anything. For testing purposes, make the `output_morse_code` function print out the message for now.
+Copy the incomplete `output_morse_code` function and add it to the beginning of your file. This function will take the message as an argument and output the message on the LED and buzzer, and will not return anything.
+
+```py
+def output_morse_code(message):
+    # Code to output message in morse code goes here
+```
+
+For testing purposes, implement the `output_morse_code` function so that it prints out the message for now.
 
 ## Input Loop
 
